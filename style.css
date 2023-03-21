@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(kuva/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+
+.kuva {
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.teksti {
+    top: 200px;
+    font-size: 50px;
+}
+
+.teksti2 {
+    top: 300px;
+    font-size: 20px;
+}
+
+a {
+    width: 148px;
+
+}
+
+nav {
+    display: flex;
+    padding: 17% 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.sisältö {
+    flex: 1;
+    text-align: center;
+}
+
+.sisältö ul li {
+    list-style: georgian;
+    display: inline-block;
+    padding: 50px 100px;
+    position: relative;
+    top: 300px;
+}
+
+.nimi {
+    position: relative;
+}
+
+.otsikko {
+    color: whitesmoke;
+
+}
+.nimi{
+    position:relative;
+    text-align: center;
+    color:whitesmoke;
+    top:300px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: inline-block;
+    }
+
+    .linkki {
+        position: relative;
+        bottom: 350px;
+        align-items: center;
+    }
+
+    .otsikko {
+        position: relative;
+        text-align: center;
+    }
+    .nimi{
+        top: 200px;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .linkki {
+        position: relative;
+        bottom: 250px;
+        align-items: center;
+    }
+
+    .otsikko {
+        position: relative;
+        text-align: center;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .linkki {
+        position: relative;
+        bottom: 250px;
+        align-items: center;
+    }
+
+    .otsikko {
+        position: relative;
+        text-align: center;
+    }
+.nimi{
+    top:200px;
+}
+
+}
+
+@media only screen and (max-width: 11000px) {
+    .linkki {
+        position: relative;
+        bottom: 250px;
+        align-items: center;
+    }
+
+    .otsikko {
+        position: relative;
+        text-align: center;
+    }
+    .nimi{
+     top: 200px;
+    }
+
+
+}
